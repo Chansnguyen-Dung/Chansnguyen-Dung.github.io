@@ -1,0 +1,51 @@
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+h1{
+	color: black;
+}
+h2{
+	color: black;
+}
+#hellodung{
+	background-color: #27528f;
+	text-align: center;
+	padding: 80px;
+}
+nav {
+	background-color: #67b4b5;
+	overflow: hidden;
+}
+nav a{
+	color: white;
+	padding:14px 20px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+.mnl{
+	float: left;
+}
+.mnr{
+	float: right;
+}
+nav a:hover{
+	background-color: black;
+}
+#leftside{
+	flex:30%;
+	background-color: #f1f1f1;
+	padding: 10px 20px;
+
+}
+#rightside{
+	flex:70%;
+	padding:10px 20px;
+}
+#flexcontainer{
+	display: flex;
+}
